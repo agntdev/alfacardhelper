@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/reward",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "/reward — you're in the right place. What would you like to do next?"
+            }
+          }
+        ],
+        "send": {
+          "text": "/reward"
+        }
+      }
+    ]
+  }
+]
